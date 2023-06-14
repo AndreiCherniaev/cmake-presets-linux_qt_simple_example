@@ -19,7 +19,7 @@
 4. Работа ведётся в Ubuntu 22.
 
 В результате получился файл CMakePresets.json
-```xml
+```json
 {
   "version": 3,
   "configurePresets": [
