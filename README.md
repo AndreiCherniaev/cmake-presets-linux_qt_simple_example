@@ -1,8 +1,8 @@
-<img src="https://habrastorage.org/webt/ew/dr/n6/ewdrn6iz_kw5il5zv5seze2pjuc.png" alt="image"/>
+<img src="https://habrastorage.org/webt/ew/dr/n6/ewdrn6iz_kw5il5zv5seze2pjuc.png" alt="Fanny image about cmake"/>
 
 Каждый день я создаю множество однотипных проектов C++ с системой сборки cmake. И открывая проекты в IDE, каждый раз снимаю галочки с типа сборки, оставляя только Debug. А ещё меняю путь к папке сборки. Мелочь, а утомляет. 
 
-<img src="https://habrastorage.org/webt/fo/oy/yg/fooyygtwmffzgs9xsf0pcwrqn1y.png" alt="image"/>
+<img src="https://habrastorage.org/webt/fo/oy/yg/fooyygtwmffzgs9xsf0pcwrqn1y.png" alt="First time opening project without any preset. Qt Creator's Configure dialog image"/>
 <i><font color="#4682B4">Первое открытие проекта (без пресета)</font></i>
 
 Я решил изучить, как сделать эти действия автоматически, а в итоге узнал про удобный метод обмена настройками cmake между программистами.<cut/>
@@ -60,18 +60,18 @@
 
 <b>Структура каталога:</b>
 
-<img src="https://habrastorage.org/webt/uu/in/vj/uuinvjwouwxu3tarpbxxclp41_8.png" alt="image"align="center">
+<img src="https://habrastorage.org/webt/uu/in/vj/uuinvjwouwxu3tarpbxxclp41_8.png" alt="Right folder structure image"align="center">
 
 Теперь при первой попытке открыть проект IDE использует cmake пресет, как показано на рисунке ниже.
 
 <b>Первое открытие проекта с пресетом:</b>
 
-<img src="https://habrastorage.org/webt/gj/iy/6e/gjiy6evo8ygvpz2q-mk33aragym.png" alt="image"align="center">
+<img src="https://habrastorage.org/webt/gj/iy/6e/gjiy6evo8ygvpz2q-mk33aragym.png" alt="First time opening project with my preset. Qt Creator's Configure dialog image"align="center">
 Кстати, что касается именно Qt Creator, то единожды обнаруженный пресет он запоминает в своей внутренней базе. Удалить (remove) его можно так
 
 <b>Qt Creator's Preferences dialog:</b>
 
-<img src="https://habrastorage.org/webt/it/ie/jt/itiejtzvj28ekd1rsp7jb--khwi.png" alt="image"align="center">
+<img src="https://habrastorage.org/webt/it/ie/jt/itiejtzvj28ekd1rsp7jb--khwi.png" alt="Qt Creator's Preferences dialog image"align="center">
 Также приведенный здесь пример доступен в <a href="https://github.com/AndreiCherniaev/cmake-presets-linux_qt_simple_example.git">репозитории</a>:
 
 <source lang="yaml">git clone https://github.com/AndreiCherniaev/cmake-presets-linux_qt_simple_example.git</source>
